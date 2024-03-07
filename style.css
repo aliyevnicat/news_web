@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+.topic {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_left {
+    display: flex;
+    gap: 3px;
+}
+
+.bbc {
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 30px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.Sighn_in {
+    margin: 5px 0 0 10px;
+    font-size: 20px;
+}
+
+.Sighn_in:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.header_center {
+    display: flex;
+    gap: 45px;
+}
+
+.center {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.center:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 107, 107);
+    border-radius: 10px;
+
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.noqteler {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.search_button {
+    text-align: left;
+    padding: 10px;
+    border: none;
+    width: 160px;
+    height: 40px;
+    font-weight: 600;
+
+}
+
+.search_button:hover {
+    background-color: rgb(97, 96, 94);
+    color: aliceblue;
+}
+
+.header_down {
+    background-color: rgb(189, 50, 50);
+    height: 100px;
+}
+
+.header_down_top {
+    color: aliceblue;
+}
+
+.news_general {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header_down_down {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.news_write_left {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+
+
+}
+
+.more_a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.more_a :hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+}
+
+.car_img {
+    margin-top: 30px;
+    text-align: center;
+    position: relative;
+
+}
+
+.car_img a {
+    position: absolute;
+    left: 990px;
+    bottom: 253px;
+
+}
+
+.Qarabag {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Qarabag_description {
+    margin-top: 10px;
+    width: 700px;
+    font-size: 30px;
+
+
+}
+
+.agsaqqal {
+    width: 650px;
+}
+
+.qarabag_top {
+    display: flex;
+    gap: 10px;
+}
+
+.Qarabag_two_description {
+    width: 600px;
+    font-size: 30px;
+}
+
+.city {
+    width: 600px;
+}
+
+.pasinyan_puton_des {
+    width: 600px;
+    font-size: 30px;
+}
+
+.pasinyan_putin {
+    width: 600px;
+}
+
+.six_top {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.money_des {
+    width: 600px;
+    font-size: 30px;
+}
+
+.money_img {
+    width: 600px;
+}
+
+.section_seven {
+    background-color: black;
+    height: 250px;
+}
+
+.umumi {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.umumi a {
+
+    text-decoration: none;
+    color: azure;
+}
+
+.end {
+    padding-top: 100px;
+}
+
+.end a {
+    text-decoration: none;
+    color: azure;
+
+}
